@@ -11,6 +11,9 @@ $primary: #69c8ff;
 // 4. Include any default map overrides here
 $custom-colors: (
 	"farve": $cyan-400,
+	"farveOrange": #dc721a,
+	"farveGul": #ffb714,
+
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -90,6 +93,20 @@ p{
 	border-color: #69c8ff;
 	color: black;
 }
+
+.btn-kontakt:hover{
+	background-color: #ffb714;
+	border-color: #ffb714;
+	color: black;
+}
+
+.btn-kontakt{
+	background-color: #dc721a;
+	border-color: #dc721a;
+	color: white;
+	font-family: "lato", sans-serif;
+}
+
 
 
 .heroContent {
